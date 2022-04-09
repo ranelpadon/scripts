@@ -46,6 +46,7 @@ backoffice_components = [
 _components.extend(backoffice_components)
 
 
+# GitLab uses SUCCESS for non-FAILED status instead of SUCCEEDED.
 SUCCESS = 'SUCCESS'
 
 # Sequencing is important for consistency with CI ordering.
